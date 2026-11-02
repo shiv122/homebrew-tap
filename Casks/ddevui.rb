@@ -1,9 +1,9 @@
 cask "ddevui" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.4"
-  sha256 arm:   "c1dcd4db51b40cc7cb881e7b8891c7e1e6fcb290cf01de31a37ac3109c5ebaf6",
-         intel: "e9c281c491eefe5696ae463013f74c274deaf92b8f932483644a4f4d5972177a"
+  version "0.2.5"
+  sha256 arm:   "83c8fbb0cc90cb0b4b57c1f9f4b8f782da5756b2d8b2a4d1660015f926c535b8",
+         intel: "d3fef120b16db3639015ef28f02d3a5254f78785ded56cbacd65155fd94a1fff"
 
   url "https://github.com/shiv122/ddev-ui/releases/download/v#{version}/ddevui-#{version}-mac-#{arch}.dmg",
       verified: "github.com/shiv122/ddev-ui/"
