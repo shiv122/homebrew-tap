@@ -1,8 +1,8 @@
 cask "stick-itt" do
-  version "0.1.1"
-  sha256 "615d9479e6433c10571ad427d905fb7c4e6802a62b74a9361f68ec99fb40b763"
+  version "0.1.2"
+  sha256 "96f05db52c44dda6d44fa6e6fb2bc974721b29d1162dbe4b7469ace8a1cc2de1"
 
-  url "https://github.com/shiv122/stickitt/releases/download/v#{version}/Stick-itt-#{version}-macos-universal.zip",
+  url "https://github.com/shiv122/stickitt/releases/download/v#{version}/Stick-itt-#{version}-macos.zip",
       verified: "github.com/shiv122/stickitt/"
   name "Stick-itt"
   desc "Tiny native sticky notes with an edge dock, reminders and markdown"
