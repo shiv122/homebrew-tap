@@ -1,6 +1,6 @@
 cask "stick-itt" do
-  version "0.1.3"
-  sha256 "81aa02120d3d6b1deb687b05929a1b99a54674346d36522603871a1707afcefb"
+  version "0.1.4"
+  sha256 "463a20cffb853d43e884a629eda40774d87fe1895214206edd284d55b74e4849"
 
   url "https://github.com/shiv122/stickitt/releases/download/v#{version}/Stick-itt-#{version}-macos.zip",
       verified: "github.com/shiv122/stickitt/"
